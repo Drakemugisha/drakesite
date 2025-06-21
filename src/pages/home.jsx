@@ -4,7 +4,7 @@ import NavBar from "../components/nav";
 import image from "../assets/back.png";
 import drake from "../assets/myimage.png";
 import app from "../assets/4708214.webp";
-import SEO from "../assets/SEO.png";
+import SEO from "../assets/seo.png";
 import web from "../assets/17365478.png";
 import marketing from "../assets/marketing.png";
 import AOS from "aos";
