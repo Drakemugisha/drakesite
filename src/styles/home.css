@@ -1,0 +1,109 @@
+:root {
+  --maincolor: #03050a;
+  --textcolot: #f7f7f7;
+}
+
+/* nav bar css */
+/* .nav-bar{
+    color: var(--textcolot);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+.nav-bar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.nav-bar ul li, p{
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.nav-bar ul li:hover{
+    color: hsl(0, 0%, 50%);
+} */
+/* hero section */
+main {
+  color: var(--textcolot);
+  max-width: 1208px;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  border-bottom: 2px solid var(--textcolot);
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.5rem;
+}
+.hero button {
+  padding: 10px 20px;
+  background-color: #17f3ff;
+  color: var(--maincolor);
+  border-radius: 16px;
+}
+/* me section */
+/* svg{
+    margin-bottom: 0;
+} */
+.me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.me h2 {
+  font-size: 2.5rem;
+  color: #17f3ff;
+}
+.me img {
+  width: 30rem;
+}
+/* skills */
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills .card {
+  border: 2px solid #17f3ff;
+  border-radius: 0% 100% 29% 71% / 70% 22% 78% 30%;
+}
+.skills p {
+  color: #17f3ff;
+}
+.skills img {
+  width: 10rem;
+}
+
+/* services */
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-top: 2px solid white;
+}
+.services p:first-child {
+  color: orange;
+  font-size: 2rem;
+}
+.service {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.service img {
+  width: 30rem;
+}
+.service h2 {
+  color: #17f3ff;
+}
+.service p:first-child {
+  color: orange;
+}
